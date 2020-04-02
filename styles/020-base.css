@@ -23,7 +23,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --cölor-text: #000;
     --cölor-headlines: #666;
     --cölor-backgrounds: #efefef;
-    --cölor-borders: rgba(0, 0, 0, 0.3);
+    --cölor-borders: rgb(0, 0, 0, 0.3);
     /* 
     Abstände. Hierzu gibt es auch ein schönes Konzept
     https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62 */
@@ -124,20 +124,20 @@ http://google.github.io/material-design-icons/
 /* Rules for using icons as black on a light background. */
 
 .material-icons.md-dark {
-    color: rgba(0, 0, 0, 0.54);
+    color: rgb(0, 0, 0, 0.54);
 }
 
 .material-icons.md-dark.md-inactive {
-    color: rgba(0, 0, 0, 0.26);
+    color: rgb(0, 0, 0, 0.26);
 }
 
 
 /* Rules for using icons as white on a dark background. */
 
 .material-icons.md-light {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255, 1);
 }
 
 .material-icons.md-light.md-inactive {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255, 0.3);
 }
